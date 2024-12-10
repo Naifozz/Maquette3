@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.NavbarHaut{
+    width: 70%;
+}
+.logoHead{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoDroite{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+.facebook, .twitter, .mail, .cafe{
+    width: 40px;
+    height: 40px;
+    background-color: #421e08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoDroite a{
+    color: white;
+}
+.NavbarBas{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #f1720b;
+
+}
+.NavbarBas ul{
+    display: flex;
+    font-size: 25px;
+}
+.NavbarBas a{
+    padding: 20px;
+    width: 13.5rem;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+.NavbarBas a:hover{
+    background-color: #421e08;
+    border-bottom: 2px solid white;
+}
+.headImg{
+    width: 100%;
+    height: 35rem;
+    background: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    
+}
+.headTxt{
+    width: 100%;
+}
+.barefoot{
+    background: url(barefoot.jpg);
+    width: 470px;
+    height: 250px;
+    border-top: 1px solid #f1720b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+.titrebarefoot{
+    font-size: 40px;
+}
+.pbarefoot{
+    font-size: 15px;
+    width: 15rem;
+    height: 7rem;
+}
+.plus{
+    display: flex;
+    
+}
+.plus a{
+    color: white;
+    font-weight: 600;
+    background-color: #f1720b;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+.skysurf{
+    background: url(sky.jpg);
+    width: 470px;
+    height: 250px;
+    border-top: 1px solid #f1720b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+.titresurf{
+    font-size: 40px;
+}
+.psurf{
+    font-size: 15px;
+    width: 20rem;
+    height: 7rem;
+}
+.bastxt{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.titrebas{
+    color: #f1720b;
+    font-size: 35px;
+    font-weight: 600;
+}
+.paragraphe{
+    color: gray;
+    text-align: center;
+    line-height: 30px;
+}
+.basboutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #421e08;
+}
+.basboutton a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #421e08;
+    font-weight: 600;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+.running{
+    background: url(equipement.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.runningtext{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.prunning{
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+.trunning1{
+    color: #f1720b;
+    font-size: 150px;
+    font-weight: 600;
+}
+.trunning2{
+    font-size: 150px;
+    display: flex;
+    gap: 10px;
+    color: #f1720b; 
+}
+.trunning2 p:first-child{
+    font-weight: 600;
+}
+.runboutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #421e08;
+}
+.runboutton a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #421e08;
+    font-weight: 600;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.paraimage{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 2rem;
+}
+.titreimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.orange{
+    color: #f1720b;
+    font-size: 50px;
+    font-weight: 600;
+}
+.gris{
+    color: gray;
+    font-size: 25px;
+}
+.boitepara{
+    display: flex;
+    line-height: 30px;
+}
+.para1, .para2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.paraboutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #f1720b;
+}
+.paraboutton a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #f1720b;
+    font-weight: 600;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+.section3{
+    background: url(bg_sav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.triplebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 3.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.boite1, .boite2, .boite3{
+    width: 30%;
+    height: 30rem;
+    background-color: gainsboro;
+    padding: 2rem;
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.boite1 i, .boite2 i, .boite3 i{
+    color: #f1720b;
+    font-size: 100px;
+}
+.boite1 i{
+    transform: scaleX(-1);
+    width: 8rem;
+}
+.boite1 p, .boite2 p, .boite3 p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.section4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.paraimage{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 2rem;
+}
+.titreimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.orange{
+    color: #f1720b;
+    font-size: 50px;
+    font-weight: 600;
+}
+.gris{
+    color: gray;
+    font-size: 25px;
+}
+.boitepara{
+    display: flex;
+    line-height: 30px;
+}
+.para1, .para2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
