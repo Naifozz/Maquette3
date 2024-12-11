@@ -252,11 +252,14 @@ nav{
 .boitepara{
     display: flex;
     line-height: 30px;
+    gap: 3rem;
 }
 .para1, .para2{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 50%;
+    font-size: 19px;
 }
 .paraboutton{
     display: flex;
@@ -320,7 +323,7 @@ nav{
     display: flex;
     justify-content: center;
 }
-.paraimage{
+.para3{
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -329,7 +332,7 @@ nav{
     padding-bottom: 5rem;
     gap: 2rem;
 }
-.titreimage{
+.titrepara2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -340,16 +343,59 @@ nav{
     font-size: 50px;
     font-weight: 600;
 }
-.gris{
+.titrepara2 .gris{
     color: gray;
-    font-size: 25px;
+    font-size: 23px;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 3rem;
 }
-.boitepara{
+.boitepara2{
     display: flex;
     line-height: 30px;
+    gap: 2rem;
 }
-.para1, .para2{
+.para12, .para4{
     display: flex;
     flex-direction: column;
+    font-size: 18px;
     gap: 2rem;
+    width: 50%;
+}
+footer{
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.foot{
+    width: 70%;
+    display: flex;
+}
+.imgfoot{
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+.txtfooter{
+    padding-top: 3rem;
+    padding-right: 3rem;
+    color: rgb(214, 214, 214);
+}
+.orange2{
+    color: #f1720b;
+}
+.txtfooter ul{
+    line-height: 2rem;
+}
+.txtfooter ul li:last-child{
+    display: flex;
+    gap: 2px;
+}
+.copy{
+    text-align: left;
+    width: 70%;
+    color: rgb(214, 214, 214);
+    padding-bottom: 3rem;
 }
